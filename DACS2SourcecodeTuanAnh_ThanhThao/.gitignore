@@ -1,0 +1,38 @@
+# Database
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Uploads
+assets/uploads/*
+!assets/uploads/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Config (if sensitive)
+# includes/config.php
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+

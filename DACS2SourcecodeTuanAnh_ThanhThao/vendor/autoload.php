@@ -1,0 +1,7 @@
+<?php
+// PHPMailer Autoload
+if (file_exists(__DIR__ . '/phpmailer/phpmailer/src/Exception.php')) {
+    require_once __DIR__ . '/phpmailer/phpmailer/src/Exception.php';
+    require_once __DIR__ . '/phpmailer/phpmailer/src/PHPMailer.php';
+    require_once __DIR__ . '/phpmailer/phpmailer/src/SMTP.php';
+}
